@@ -1,7 +1,7 @@
 {
   "name": "quilombo.digital",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.0.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.0.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.4"
-  }
+    "typescript": "^5"
+  },
+  "description": "Quilombo Digital é uma plataforma colaborativa e anticapitalista para organização política e social, inspirada nos valores de resistência e solidariedade dos quilombos históricos.",
+  "main": "index.js",
+  "repository": "https://github.com/m4riodev/quilombo.digital",
+  "author": "Mario Jr <oiram.araujo@gmail.com>",
+  "license": "AGPL"
 }
